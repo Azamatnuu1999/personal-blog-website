@@ -1,0 +1,47 @@
+/* Main section */
+main .blog {
+    width: 100%;
+    margin: 40px auto;
+    background-color: var(--bg-color);
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+main .blog:hover {
+    transform: scale(1);
+    border: none;
+    box-shadow: none;
+}
+
+
+main .top h1 {
+    margin: 15px 0;
+}
+
+
+main .top .top-images {
+    display: grid;
+    grid-template-areas: 
+    "left right"
+    "bottom bottom";
+}
+
+
+main .top .top-images .image3 {
+    grid-area: bottom;
+}
+
+
+main .middle .middle-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main .middle .middle-images > div {
+    width: 49%;
+}
